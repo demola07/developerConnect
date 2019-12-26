@@ -17,23 +17,23 @@ const Dashboard = ({
   return loading && profile === null ? (
     <Spinner />
   ) : (
-    <Fragment>
-      <h1 className="large text-primary">Dashboard</h1>
-      <p className="lead">
-        <i className="fas fa-user">Welcome {user && user.name}</i>
-      </p>
-      {profile !== null ? (
-        <Fragment>has</Fragment>
-      ) : (
-        <Fragment>
-          <p>You have not yet set up a profile, Please add some info</p>
-          <Link to="/create-profile" className="btn btn-primary my-1">
-            Create Profile
+      <Fragment>
+        <h1 className="large text-primary">Dashboard</h1>
+        <p className="lead">
+          <i className="fas fa-user">Welcome {user && user.name}</i>
+        </p>
+        {profile !== null ? (
+          <Fragment>has</Fragment>
+        ) : (
+            <Fragment>
+              <p>You have not yet set up a profile, Please add some info</p>
+              <Link to="/create-profile" className="btn btn-primary my-1">
+                Create Profile
           </Link>
-        </Fragment>
-      )}
-    </Fragment>
-  );
+            </Fragment>
+          )}
+      </Fragment>
+    );
 };
 
 Dashboard.propTypes = {
