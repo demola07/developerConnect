@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { connect } from 'react-redux';
-import { deleteEducation, deleteExperience } from '../../actions/profile';
+import { deleteEducation } from '../../actions/profile';
 import Moment from 'react-moment';
 import PropTypes from 'prop-types';
 
@@ -32,7 +32,7 @@ const Education = ({ education, deleteEducation }) => {
       <h2 className='my-2'>Education Credentials</h2>
       <table className='table'>
         <thead>
-          <tr>  
+          <tr>
             <th>School</th>
             <th className='hide-sm'>Degree</th>
             <th className='hide-sm'>Years</th>
