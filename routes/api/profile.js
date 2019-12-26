@@ -81,11 +81,11 @@ router.post(
 
     //Build Social object
     profileFields.social = {};
-    if (youtube) profileFields.social.youtube = youtube;
-    if (twitter) profileFields.social.twitter = twitter;
-    if (facebook) profileFields.social.facebook = facebook;
-    if (linkedin) profileFields.social.linkedin = linkedin;
-    if (instagram) profileFields.social.instagram = instagram;
+    if (youtube) profileFields.social.youtube = youtube.toString();
+    if (twitter) profileFields.social.twitter = twitter.toString();
+    if (facebook) profileFields.social.facebook = facebook.toString();
+    if (linkedin) profileFields.social.linkedin = linkedin.toString();
+    if (instagram) profileFields.social.instagram = instagram.toString();
 
     try {
       // Using upsert option (creates new doc if no match is found):
