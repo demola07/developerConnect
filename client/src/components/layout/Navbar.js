@@ -55,7 +55,7 @@ const Navbar = props => {
     <nav className='navbar bg-dark'>
       <h1>
         <Link to='/'>
-          <i className='fas fa-code'></i> DevConnector
+          <i class='fas fa-wifi fa-spin'></i> Developer's Connect
         </Link>
       </h1>
       {!loading && (
