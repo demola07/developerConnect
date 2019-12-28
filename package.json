@@ -1,6 +1,9 @@
 {
   "name": "developerconnect_backend",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.16.3"
+  },
   "description": "Social Network for Software Developers",
   "main": "server.js",
   "scripts": {
