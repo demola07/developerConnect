@@ -4,7 +4,7 @@
 
 > It is a small social network app that includes authentication, profiles and forum posts.
 
-### Buit with: _HTML_, _CSS_, _React_. _Redux_, _MongoDB_, _Express.js_
+### Buit with: _HTML_, _CSS_, _React_, _Redux_, _MongoDB_, _Express.js_
 
 ## Quick Start
 
